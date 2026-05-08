@@ -1,0 +1,25 @@
+body{
+    background: rgb(182, 211, 221);
+    text-align: center;
+    font-family: Arial;
+    }
+    
+    h1{
+    color: rgb(25, 25, 243);
+    }
+    button{
+        width:80px;/*m*/
+        height:80px;
+        background:radial-gradient(circle,rgb(13, 33, 43),rgb(102, 102, 145));/*m*/
+        border-radius:50%;
+        border:none;
+        cursor:pointer;
+        margin-top:auto;
+        color:azure;/*m*/
+        transition:0.3s;
+        }
+        button:hover{
+        scale:1.1;
+        box-shadow: 0 0 15px;
+        }
+    
